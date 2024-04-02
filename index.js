@@ -21,4 +21,4 @@ app.use('/socialLoginProject/api/v1', router);
 app.listen(serverPort);
 
 
-//http://localhost:3000/socialLoginProject/api/v1/ping
+//http://13.209.76.2:3000/socialLoginProject/api/v1/ping
