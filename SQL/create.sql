@@ -31,6 +31,4 @@ WHERE username = '박근원';
 
 UPDATE User
 SET userId = 'dsa'
-WHERE username = '김기재';*/
-
-;skdjfslakd
+WHERE username = '김기재';

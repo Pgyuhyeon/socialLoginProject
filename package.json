@@ -14,7 +14,8 @@
     "cors": "2.8.5",
     "express": "4.19.2",
     "npm": "^10.5.0",
-    "moment-timezone": "0.5.45"
-    
+    "moment-timezone": "0.5.45",
+    "dotenv": "16.4.5",
+    "mysql2": "3.9.7"
   }
 }
