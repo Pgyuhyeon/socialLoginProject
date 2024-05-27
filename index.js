@@ -3,6 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import { ping } from './controller/system.js';
 import { deletUserById, getAllUsers, getUserById, postUser } from './lib/userInfo.js';
+import { setupSwagger } from './swagger.js';
 
 const serverPort = 3000;
 const app = express();
@@ -20,6 +21,8 @@ router.route('/user').post(postUser);
 router.route('/user').delete(deletUserById);
 
 app.use('/socialLoginProject/api/v1', router);
+setupSwagger(app, serverPort);
 app.listen(serverPort);
+
 
 //http://13.209.76.2:3000/socialLoginProject/api/v1/ping
